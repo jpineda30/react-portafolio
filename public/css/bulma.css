@@ -47,7 +47,7 @@
 
 .box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
 .subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .message:not(:last-child), .pagination:not(:last-child), .tabs:not(:last-child) {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0rem;
 }
 
 .delete, .modal-close {
@@ -1909,9 +1909,6 @@ fieldset[disabled] .button {
 .content ul:not(:last-child),
 .content blockquote:not(:last-child),
 .content pre:not(:last-child),
-.content table:not(:last-child) {
-  margin-bottom: 1em;
-}
 
 .content h1,
 .content h2,
@@ -1930,7 +1927,7 @@ fieldset[disabled] .button {
 }
 
 .content h1:not(:first-child) {
-  margin-top: 1em;
+  margin-top: 0em;
 }
 
 .content h2 {

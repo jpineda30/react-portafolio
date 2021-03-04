@@ -43,14 +43,14 @@ function NavTabs() {
       
         </Link>
 
-        <Link to="/li" className={location.pathname === "/li" ? "main-button s5": "main-button s5"}>
+        <Link to="/li" className={location.pathname === "/li" ? "main-button s5 menu-bottom": "main-button s5 menu-bottom"}>
         
         <i className="fab fa-github"></i>
           <h1>GITHUB</h1>
       
         </Link>
 
-        <Link to="/Contact" className={location.pathname === "/Contact" ? "main-button s6": "main-button s6"}>
+        <Link to="/Contact" className={location.pathname === "/Contact" ? "main-button s6 menu-bottom": "main-button s6 menu-bottom"}>
         
         <i className="far fa-address-book"></i>
           <h1>CONTACT</h1>

@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../header";
 
 function Resume(){
 
@@ -6,7 +7,9 @@ function Resume(){
     return(
 
         
-        <div className="s3"></div>    
+        <div className="s3">
+            <Header/>
+        </div>    
 
 
 

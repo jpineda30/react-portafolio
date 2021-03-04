@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../header";
 
 function Portafolio(){
 
@@ -7,7 +8,7 @@ function Portafolio(){
 
         
         <div className="s2">
-            port
+            <Header/>
         </div>    
 
 
