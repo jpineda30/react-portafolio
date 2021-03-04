@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.gridus{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
 html{
     height: 100vh;
     width: 100vw;
@@ -27,6 +36,11 @@ body{
 }
 
 .main-button{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
     
     max-width: 16.66%;
     max-height: 50%;
@@ -34,12 +48,84 @@ body{
     min-width: 16.66%;
     min-height: 50%;
     
-    background: black;
-    border-style: solid;
-    border-color: ivory;
-    transition: .3s;
+   
+    transition: .5s;
+
+   
+  
 
     
+}
+
+
+
+
+.main-button i{
+    
+    font-size: 30px;
+    color: grey;
+    margin: 5px;
+}
+
+.main-button h1{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+
+.s1{
+    background: linear-gradient(to top, rgb(95, 95, 95) 50%, rgb(80, 80, 80) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+
+.s2{
+
+    background: linear-gradient(to top, rgb(80, 80, 80) 50%, rgb(70, 70, 70) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+    
+}
+.s3{
+    background: linear-gradient(to top, rgb(65, 65, 65) 50%, rgb(55, 55, 55) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+.s4{
+    background: linear-gradient(to top, rgb(50, 50, 50) 50%, rgb(40, 40, 40) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+.s5{
+    background: linear-gradient(to top, rgb(35, 35, 35) 50%, rgb(25, 25, 25) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+.s6{
+    background: linear-gradient(to top, rgb(10, 10, 10) 50%, rgb(0, 0, 0) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+
+
+.s1:hover{
+    background-position:top left;
+}
+.s2:hover{
+    background-position:top left;
+}
+.s3:hover{
+    background-position:top left;
+}
+.s4:hover{
+    background-position:top left;
+}
+.s5:hover{
+    background-position:top left;
+}
+.s6:hover{
+    background-position:top left;
 }
 
 @media (max-width: 1000px) { 
