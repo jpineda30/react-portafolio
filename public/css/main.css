@@ -35,7 +35,7 @@ body{
     height: 30%;
 }
 
-.main-button{
+.main-button,.menus a{
 
     display: flex;
     flex-direction: column;
@@ -130,7 +130,7 @@ body{
 
 @media (max-width: 1000px) { 
 
-    .main-button{
+    .main-button,.menus a{
     
     max-width: 25%;
     max-height: 50%;
@@ -148,7 +148,7 @@ body{
 
 @media (max-width: 800px) { 
 
-    .main-button{
+    .main-button, .menus a{
     
     max-width: 33%;
     max-height: 50%;
