@@ -7,7 +7,7 @@ function Contact(){
     return(
 
         
-        <div className="s6">
+        <div className="s6b">
             <Header/>
                <div class="flex-col flex-center m-6 info-content">
                  <h1 class="has-text-white has-text-centered is-size-4"><i></i>Contact Info</h1>

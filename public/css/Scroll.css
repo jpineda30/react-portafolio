@@ -28,8 +28,12 @@
 
 
 
-  .content, body{
+  body{
     
     overflow: hidden;
     
+  }
+
+  .content{
+    overflow: scroll;
   }
