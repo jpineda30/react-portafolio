@@ -83,35 +83,35 @@ body{
 
 
 .s1{
-    background: linear-gradient(to top, rgb(95, 95, 95) 50%, rgb(80, 80, 80) 50%);
+    background: linear-gradient(to top, rgb(200, 200, 200) 50%, rgb(80, 80, 80) 50%);
     background-size: 100% 200%;
     background-position:bottom left;
 }
 
 .s2{
 
-    background: linear-gradient(to top, rgb(80, 80, 80) 50%, rgb(70, 70, 70) 50%);
+    background: linear-gradient(to top, rgb(96, 97, 102) 50%, rgb(70, 70, 70) 50%);
     background-size: 100% 200%;
     background-position:bottom left;
     
 }
 .s3{
-    background: linear-gradient(to top, rgb(65, 65, 65) 50%, rgb(55, 55, 55) 50%);
+    background: linear-gradient(to top, rgb(120, 120, 120) 50%, rgb(55, 55, 55) 50%);
     background-size: 100% 200%;
     background-position:bottom left;
 }
 .s4{
-    background: linear-gradient(to top, rgb(50, 50, 50) 50%, rgb(40, 40, 40) 50%);
+    background: linear-gradient(to top, rgb(80, 80, 80) 50%, rgb(40, 40, 40) 50%);
     background-size: 100% 200%;
     background-position:bottom left;
 }
 .s5{
-    background: linear-gradient(to top, rgb(35, 35, 35) 50%, rgb(25, 25, 25) 50%);
+    background: linear-gradient(to top, rgb(40, 40, 40) 50%, rgb(25, 25, 25) 50%);
     background-size: 100% 200%;
     background-position:bottom left;
 }
 .s6{
-    background: linear-gradient(to top, rgb(10, 10, 10) 50%, rgb(0, 0, 0) 50%);
+    background: linear-gradient(to top, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 50%);
     background-size: 100% 200%;
     background-position:bottom left;
 }
