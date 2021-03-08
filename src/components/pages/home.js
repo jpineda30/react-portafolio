@@ -16,13 +16,13 @@ function Home(){
 
                 <div className="main-pic2 "> </div>
 
-                <div className=" s2 flex-row flex-center">
+                <a  href= "https://www.facebook.com/jose.pineda.9862" className=" s2 flex-row flex-center facebook">
                       <i className="fab fa-facebook fa-2x has-text-white"></i> 
-                </div>
+                </a>
 
-                 <div className="s3 flex-row flex-center">
-                    <i className="fab fa-instagram fa-2x has-text-white"></i>
-                </div>
+                 <a href= "https://www.instagram.com/pepo_pics/" className="s3 flex-row flex-center instagram">
+                    <i className="fab fa-instagram fa-2x has-text-white "></i>
+                </a>
                  
 
                 

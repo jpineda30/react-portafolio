@@ -130,14 +130,14 @@
             "description":"A web page with multiple choice questions about coding with javascript and HTML",
             "url":"https://jpineda30.github.io/Code-Quiz/",
             "repository":"https://github.com/jpineda30/Code-Quiz.git",
-            "image":"code-quiz"
+            "image":"code-quiz.bmp"
         },
         {
             "name":"Professional Portafolio",
             "description":"My second atempt to a professional online portafolio",
-            "url":"https://jpineda30.github.io/Updated-Portfolio-Page/",
+            "url":"https://jpineda30.github.io/Update-Portafolio-v2/",
             "repository":"https://github.com/jpineda30/Update-Portafolio-v2.git",
-            "image":"portafolio2"
+            "image":"portafolio2.bmp"
         },
         {
             "name":"Note Taker",
@@ -149,7 +149,7 @@
         {
             "name":"Weather Dashboard",
             "description":"A web aplication that tells you the current weather in any city",
-            "url":"https://openweathermap.org/api",
+            "url":"https://jpineda30.github.io/Weather-Dashboard/",
             "repository":"https://github.com/jpineda30/Weather-Dashboard.git",
             "image":"weather-dashboard.bmp"
         },

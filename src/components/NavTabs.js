@@ -36,19 +36,19 @@ function NavTabs() {
       
         </Link>
 
-        <Link to="/gh" className={location.pathname === "/gh" ? "main-button s4": "main-button s4"}>
+        <a href="https://www.linkedin.com/in/jose-pineda-esquer-3943b274/" className="main-button s4" target="_blank">
         
         <i className="fab fa-linkedin"></i>
           <h1>LINKEDIN</h1>
       
-        </Link>
+        </a>
 
-        <Link to="/li" className={location.pathname === "/li" ? "main-button s5 menu-bottom": "main-button s5 menu-bottom"}>
+        <a href="https://github.com/jpineda30" className= "main-button s5 menu-bottom" target="_blank">
         
         <i className="fab fa-github"></i>
           <h1>GITHUB</h1>
       
-        </Link>
+        </a>
 
         <Link to="/Contact" className={location.pathname === "/Contact" ? "main-button s6 menu-bottom": "main-button s6 menu-bottom"}>
         
