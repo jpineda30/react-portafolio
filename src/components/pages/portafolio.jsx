@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../header";
 import Proyect from "../proyect";
+import MyData from "../../json/resume.json";
 
 function Portafolio(){
 
@@ -11,16 +12,13 @@ function Portafolio(){
         <div className="s2b content flex-row flex-center flex-wrap flex-between">
             <Header/>
             <div className="Proyects flex-row flex-wrap">
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
-             <Proyect/>
+                {
+                MyData.proyects.map((proyect)=>{
+                    let add = <Proyect data={proyect}/>
+                    return add
+                })
+                }
+
             </div>
         </div>    
 

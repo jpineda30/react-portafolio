@@ -17,11 +17,11 @@ function Home(){
                 <div className="main-pic2 "> </div>
 
                 <div className=" s2 flex-row flex-center">
-                      <i class="fab fa-facebook fa-2x has-text-white"></i> 
+                      <i className="fab fa-facebook fa-2x has-text-white"></i> 
                 </div>
 
                  <div className="s3 flex-row flex-center">
-                    <i class="fab fa-instagram fa-2x has-text-white"></i>
+                    <i className="fab fa-instagram fa-2x has-text-white"></i>
                 </div>
                  
 
