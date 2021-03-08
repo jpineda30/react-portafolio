@@ -9,7 +9,7 @@ function Resume() {
 return(
 
         
-        <div className="s3 content">
+        <div className="s3b content">
             
             <MyResume/>
             
