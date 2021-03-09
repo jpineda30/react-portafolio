@@ -42,7 +42,7 @@ html{
 body{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(38, 35, 68, 0.75);
+    background-color: rgba(16, 12, 59, 0.75);
     
     background-attachment: fixed;
 }
@@ -237,9 +237,9 @@ body{
 }
 
 .main-pic{
-    filter: grayscale(50%);
+    filter: grayscale(20%);
     background-color: black;
-    background-image: url(../img/me\ \(2\).jpg);
+    background-image: url(../img/me.jpg);
     height: 50%;
     width: 100%;
     background-size: 100% 100%;
@@ -248,7 +248,7 @@ body{
 .resume-pic{
     
     background-color: black;
-    background-image: url(../img/me\ \(2\).jpg);
+    background-image: url(../img/me.jpg);
     height: 200px;
     width: 200px;
     background-size: 100% 100%;
@@ -467,7 +467,7 @@ body{
 .head-pic{
     filter: grayscale(100%);
     background-color: black;
-    background-image: url(../img/me\ \(2\).jpg);
+    background-image: url(../img/me.jpg);
     height: 210px;
     width: 16.7%;
     background-size: 100% 100%;

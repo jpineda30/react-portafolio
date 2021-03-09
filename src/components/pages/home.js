@@ -43,10 +43,10 @@ function Home(){
 
                     </p>
 
-                    <p className="has-text-white mt-3">I have 8 years of experience implementing and managing Sap systems, I worked as a consultant for about four years with SAP ECC 6 in the purchasing(MM), sales(SD) and production(PP) modules. Now I been working as a consultant for Sap business by design implementing the whole suit, and I have 2 years of experience developing solutions and add-ons for Business ByDesign.</p>
+                    <p className="has-text-white mt-3">I have 8 years of experience implementing and managing Sap systems, I worked as support with SAP ECC 6. I been working as a consultant for Sap business by design implementing the whole suit, and I have 2 years of experience developing solutions and add-ons for Business ByDesign.</p>
                     
                     <p className="has-text-white mt-3">
-                        Im looking forward to learn about web development so I can expand my knowledge in how to integrate web applications with other administrative systems like SAP solutions.
+                        Im looking forward to learn about web development so I can expand my knowledge in how to integrate web applications with other administrative systems souch as SAP solutions.
 
                     </p>
                 </div>
