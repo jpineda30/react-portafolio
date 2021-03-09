@@ -1,5 +1,6 @@
 import React from "react";
 
+// <div style={{ background:  "url(img/proyect-img/"+props.data.image +")"}} className="proyect-info flex-col flex-acenter">
 
 function Proyect(props){
 
@@ -15,7 +16,7 @@ function Proyect(props){
             <div className="buttonp2 flex-col flex-center">
             <a  href={props.data.url} className="fas fa-play-circle fa-2x has-text-light p-2" target="_blank"></a>
             </div>
-                <div style={{ background:  "url(img/proyect-img/"+props.data.image +")"}} className="proyect-info flex-col flex-acenter">
+                <div style={{ background:  "url(react-portafolio/static/media/"+props.data.image +")"}} className="proyect-info flex-col flex-acenter">
                     
                         <div className="filter pt-3 flex-col flex-acenter">
                             <div className="proyect-title">{props.data.name}</div>

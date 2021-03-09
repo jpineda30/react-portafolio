@@ -6,7 +6,7 @@ function Home(){
     return(
 
         
-        <div className="s1b content flex-row flex-center flex-wrap">
+        <div className="s1b contents flex-row flex-center flex-wrap">
             
            
             <div className="about">
@@ -16,11 +16,11 @@ function Home(){
 
                 <div className="main-pic2 "> </div>
 
-                <a  href= "https://www.facebook.com/jose.pineda.9862" className=" s2 flex-row flex-center facebook">
+                <a  href= "https://www.facebook.com/jose.pineda.9862" className=" s2 flex-row flex-center facebook" target="_blank">
                       <i className="fab fa-facebook fa-2x has-text-white"></i> 
                 </a>
 
-                 <a href= "https://www.instagram.com/pepo_pics/" className="s3 flex-row flex-center instagram">
+                 <a href= "https://www.instagram.com/pepo_pics/" className="s3 flex-row flex-center instagram" target="_blank">
                     <i className="fab fa-instagram fa-2x has-text-white "></i>
                 </a>
                  
