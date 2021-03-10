@@ -1,6 +1,6 @@
 # Updated Portfolio Page
 
-![Portafolio](img\preview.jpg)
+<img src="./img/portafolios.png"/>
 
 An updated version of my portafolio page using react.
 
