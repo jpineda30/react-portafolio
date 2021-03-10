@@ -8,8 +8,8 @@
         "address":"Mexico City"
 
     },
-    "about":" this is my profile",
-    "skills":["Drugs","Skill2","skill3"],
+    "about":"Expert in software integrations in administrative processes using SAP soluctions, SAP cloud Studio developer for SAP Business by design and full stack developer",
+    "skills":["Sap Business By Design","SAP ECC6 MM" ,"C#","Javascript","MySQL","React","Mongo DB"],
     "languages":["Spanish","English"],
     "work":[
      {
@@ -17,28 +17,28 @@
          "from":"2011",
          "to":"2015",
          "positionDescription":"Technical Support for SAP ECC 6",
-         "jobDescription":"Bla bla Bla"
+         "jobDescription":"Administration, Training and technical support for SAP ECC MM SD PP PM"
      },
      {
         "company":"Insumos Comerciales de Occidente",
         "from":"2015",
         "to":"2018",
         "positionDescription":"ERP implmenetation and administration",
-        "jobDescription":"Bla bla Bla"
+        "jobDescription":"Administration, Training and technical support for SAP ECC and SAP Business by Design"
     },
     {
         "company":"Dintec Consulting",
         "from":"2018",
         "to":"2019",
         "positionDescription":"Sap Bussiness by Design Consultant",
-        "jobDescription":"Bla bla Bla"
+        "jobDescription":"Consultant for sap Bussiness by Design in the logistics modules"
     },
     {
         "company":"Insumos Comerciales de Occidente",
         "from":"2018",
         "to":"Current",
-        "positionDescription":"ERP implmenetation and administration",
-        "jobDescription":"Bla bla Bla"
+        "positionDescription":"Assoociate Manager",
+        "jobDescription":"Administration and implementation of administrative systems and integration of new software solutions"
     }
     ],
     "education":[

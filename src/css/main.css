@@ -650,9 +650,12 @@ a{ border-image-width: 0 !important;}
 }
 
  .bold2{
-    color: black !important;
+    
+    color: rgb(190, 190, 190) !important;
     font-weight: bold !important;
     min-width: 100px;
+   /* text-shadow: 3px 3px 8px white;*/
+    
 }
 
 .year{
