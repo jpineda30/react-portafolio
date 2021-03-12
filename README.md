@@ -11,7 +11,7 @@ An updated version of my portafolio page using react.
 
 ## About the portafolio
 
-This version of my portafolio uses react as a framework. The information about my resume and my proyects are stored in a json file that is imported by de elments to display the information in the adecuate place so any adition to the json automaticly updates the layout.
+This version of my portafolio uses react as a framework. The information about my resume and my proyects are stored in a json file that is imported by the elments to display the information in the adecuate place. Any adition to the json automatically updates the layout.
 
 <img src="./img/preview.bmp"/>
 
