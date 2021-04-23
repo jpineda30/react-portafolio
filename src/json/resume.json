@@ -92,11 +92,18 @@
     ],
     "proyects":[
         {
+            "name":"E-med",
+            "description":"React Appointment Managing System",
+            "url":"https://ibmug-emed.herokuapp.com/",
+            "repository":"https://github.com/jpineda30/Proyect-3",
+            "image":"dentapp.bmp"
+        },
+        {
             "name":"DentApp",
             "description":"Appointment Managing System",
             "url":"https://protected-sands-23388.herokuapp.com/",
             "repository":"https://github.com/jpineda30/Project-2.git",
-            "image":"dentapp.bmp"
+            "image":"dentapp2.bmp"
         },
         {
             "name":"Covid/News tracker",

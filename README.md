@@ -4,7 +4,6 @@
 
 An updated version of my portafolio page using react.
 
-
 ## Portfolio Page URL
 
 [Updated Portafolio](https://jpineda30.github.io/react-portafolio/)
@@ -19,7 +18,7 @@ There is a menu element acting as a header with the routes for all the pages.
 
 The portafolio is fully responsive so it can be displayed in a mobil device with a stylized layout.
 
-For the styling i used *bulma*, *fontawesome* but mostly pure css and flex box to make the elements responsive..
+For the styling i used _bulma_, _fontawesome_ but mostly pure css and flex box to make the elements responsive..
 
 ## User info
 
