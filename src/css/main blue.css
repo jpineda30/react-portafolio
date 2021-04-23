@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap');
+
+#root{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.gridus{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p,div {font-family: 'Work Sans', sans-serif;}
+h1{ 
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Khand', sans-serif;
+}
+
+a{
+    color: rgb(23, 40, 54);
+    
+}
+
+
+html{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url(../img/800px_COLOURBOX21215980.jpg);
+   /* background-image: url(../img/white.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;*/
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(97, 97, 97, 0.75);
+    
+    background-attachment: fixed;
+}
+
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.menus{
+    width: 100%;
+    height: 15%;
+   
+}
+
+
+
+.main-button,.menus a{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+    max-width: 16.66%;
+    max-height: 50%;
+
+    min-width: 16.66%;
+    min-height: 100%;
+    
+   
+    transition: .5s;
+    
+
+   border-image: 0% !important;
+  
+
+    
+}
+
+
+
+
+.main-button i{
+    
+    font-size: 30px;
+    color: rgb(179, 179, 179);
+    margin: 5px;
+    transition: .3s;
+}
+
+.main-button h1{
+    
+    color: rgb(201, 196, 196);
+    font-weight: 700;
+    transition: .3s;
+}
+
+.main-button:hover h1{
+    
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.main-button:hover i{
+    
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+/*.main-button{
+
+    
+    border-style: solid !important;
+    border-color: grey !important;
+    border-width: 1px !important;
+  
+
+    
+}
+*/
+
+
+.s1{
+    background: linear-gradient(to top, rgb(3, 7, 30)50%, rgb(53, 94, 73) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+
+.s2{
+
+    background: linear-gradient(to top, rgb(25, 133, 161)50%, rgb(53, 94, 73) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+    
+}
+.s3{
+    background: linear-gradient(to top, rgb(76, 92, 104)50%, rgb(53, 94, 73) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+.s4{
+    background: linear-gradient(to top, rgb(70, 73, 76)50%, rgb(53, 94, 73) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+.s5{
+    background: linear-gradient(to top, rgb(197, 195, 198)50%, rgb(53, 94, 73) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+.s6{
+    background: linear-gradient(to top, rgb(220, 220, 221)50%, rgb(53, 94, 73) 50%);
+    background-size: 100% 200%;
+    background-position:bottom left;
+}
+
+.s1,.s2,.s3,.s4,.s5,.s6{
+    height: 100%;
+    border: none;
+    margin: none;
+}
+.s1b,.s2b,.s3b,.s4b,.s5b,.s6b{
+    height: 100%;
+    border: none;
+    margin: none;
+}
+
+.s1b{
+    background: linear-gradient(to bottom, rgba(197, 195, 198, 0.76) , rgba(197, 195, 198, 0.76) );
+    background-size: 100% 100%;
+  
+}
+
+.s2b{
+
+    background: linear-gradient(to bottom, rgb(10, 10, 10) , rgb(0, 0, 0,1) );
+    background-size: 100% 100%;
+  
+    
+}
+.s3b{
+      background: linear-gradient(to bottom, rgb(20, 20, 20,.8), rgba(63, 63, 63, 0.5) );
+    background-size: 100% 100%;
+  
+}
+.s4b{
+    background: linear-gradient(to bottom, rgb(80, 80, 80),rgb(80, 80, 80), rgb(10, 50, 126));
+    background-size: 100% 100%;
+  
+}
+.s5b{
+    background: linear-gradient(to bottom, rgb(40, 40, 40), rgb(40, 40, 40), rgb(10, 50, 126));
+    background-size: 100% 100%;
+  
+}
+.s6b{
+    background: linear-gradient(to bottom, rgb(50, 50, 50),rgb(0, 0, 0,.9));
+    background-size: 100% 100%;
+  
+}
+
+
+
+
+.menus .s1:hover{
+    background-position:top left;
+}
+.menus .s2:hover{
+    background-position:top left;
+}
+.menus .s3:hover{
+    background-position:top left;
+}
+.menus .s4:hover{
+    background-position:top left;
+}
+.menus .s5:hover{
+    background-position:top left;
+}
+.menus .s6:hover{
+    background-position:top left;
+}
+
+.content{
+    overflow: scroll;
+    margin: 0;
+}
+
+.main-pic{
+    filter: grayscale(50%);
+    background-color: black;
+    background-image: url(../img/me\ \(2\).jpg);
+    height: 50%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.resume-pic{
+    
+    background-color: black;
+    background-image: url(../img/me\ \(2\).jpg);
+    height: 200px;
+    width: 200px;
+    background-size: 100% 100%;
+}
+.about{
+    height: 400px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bio{
+    background:rgba(3, 7, 30, 0.334);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+
+    padding: 15px;
+    max-width: 70%;
+    
+    
+}
+
+.bio h1{
+    color: rgb(255, 255, 255);
+}
+.bio p{
+    color: rgb(212, 212, 212);
+}
+
+.social{
+    height: 50%;
+    width: 100%;
+}
+
+.social .flex-row{
+    transition: .3s;
+    width: 50%;
+    height: 50%;
+}
+
+
+@media (max-width: 1000px) { 
+
+    .main-button, .head-pic,.menus a{
+    
+    max-width: 25%;
+    max-height: 50%;
+
+    min-width: 25%;
+    min-height: 50%;
+    
+  
+
+    
+    }
+    
+    .menus{
+        width: 100%;
+        height: 30%;
+    }
+
+    .menu-bottom{
+        max-width: 50%;
+        max-height: 50%;
+    
+        min-width: 50%;
+        min-height: 50%;
+    }
+
+    .titles{
+        padding: 10px !important;
+    }
+
+
+ }
+
+@media (max-width: 800px) { 
+
+    .main-button,.head-pic, .menus a{
+    
+    max-width: 33%;
+    max-height: 50%;
+
+    min-width: 33%;
+    min-height: 50%;
+    
+  
+
+    
+    }
+    .head-pic{
+        height: 150px !important;
+    }
+    .menus{
+        width: 100%;
+        height: 30%;
+    }
+
+    .bio{
+        height: auto;
+    }
+
+    .about{
+    
+        margin: 15px;
+        
+    }
+
+    .my-header h1{
+        font-size: 35px !important;
+        color: whitesmoke !important;
+    }
+    .my-header p{
+        font-size: 20px !important;
+    }
+
+    .is-white{
+        
+        color: rgb(255, 255, 255) !important;
+    }
+
+
+
+ }
+
+ .title{
+    display: block;
+    margin-bottom: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (max-width: 640px) { 
+
+    .main-button,.head-pic, .menus a{
+    
+    max-width: 33%;
+    max-height: 50%;
+
+    min-width: 33%;
+    min-height: 50%;
+    
+  
+
+    
+    }
+    .head-pic{
+        height: 130px !important;
+    }
+    .menus{
+        width: 100%;
+        height: 30%;
+    }
+
+    .bio{
+        height: auto;
+    }
+
+    .about{
+    
+        margin: 15px;
+        
+    }
+
+    .my-header div h1{
+        text-align: center;
+        font-size: 20px !important;
+    }
+    .my-header p{
+        font-size: 15px !important;
+        text-align: center;
+    }
+    .titles{
+        padding: 5px !important;
+    }
+
+    .bio{
+       
+        max-width: 100%;
+        
+        
+    }
+
+
+
+ }
+
+ .title{
+    display: block;
+    margin-bottom: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.social .flex-row:hover{
+    background: rgb(5, 12, 46);
+}
+
+
+
+.info-content{
+    margin: 0!important;
+    width: 100%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0);
+}
+
+.my-header{
+    width: 100%;
+}
+
+.head-pic{
+    filter: grayscale(100%);
+    background-color: black;
+    background-image: url(../img/me\ \(2\).jpg);
+    height: 210px;
+    width: 16.7%;
+    background-size: 100% 100%;
+}
+
+.main-pic2{
+    width: 100%;
+    height: 50%;
+    background: url(../img/IMG_20150627_160014844_HDR.jpg);
+    background-size: 100% 100%;
+}
+
+.Proyects{
+    width: 100%;
+    height: 100%;
+}
+
+.Proyect{
+    width: 220px;
+    height: 270px;
+    margin: 22px;
+    margin-bottom: 22px;
+    background: rgb(59, 59, 59) ;
+    
+    
+}
+
+
+.buttonp1{
+    height: 25%;
+    width: 50%;
+    transition: .3s;
+    background: rgb(39, 39, 39) ;
+    /*border-style: solid;
+    border-color: whitesmoke;*/
+    
+    
+   
+}
+.buttonp1 a, .buttonp2 a{
+    
+    transition: .3s;
+    
+    
+   
+}
+.buttonp1:hover a{
+
+    color: black !important;
+    
+    
+   
+}
+.buttonp2:hover a{
+    
+    color: black !important;
+    
+    
+   
+}
+
+.buttonp2{
+    height: 25%;
+    width: 50%;
+    transition: .3s;
+    background: rgb(93, 93, 93) ;
+    /*border-style: solid;
+    border-color: whitesmoke;*/
+    
+   
+}
+
+
+.buttonp1:hover{
+    
+    background: rgb(143, 143, 143) ;
+    
+    
+   
+}
+
+
+.buttonp2:hover{
+    
+    background: rgb(192, 192, 192) ;
+    
+   
+}
+
+.proyect-info{
+    width: 100%;
+    height: 75%;
+    background: rgb(255, 255, 255) ;
+    transition: .3s;
+    background-size: 100% 100% !important;
+    background-repeat:  no-repeat !important;
+    background-position: center !important;
+    background-size: cover;
+    
+}
+.proyect-info:hover div div{
+   color: rgba(0, 0, 0, 0);
+    
+}
+
+
+.proyect-title{
+    height: 35px;
+    top:-50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+.proyect-description{
+    top:-50%;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+.proyect-img{
+    
+    object-fit:fill;
+    object-position: center;
+    
+    filter: blur(10px);
+    transition: .3s;
+ 
+    
+}
+
+.filter{
+    width: 100%;
+    height: 100%;
+    background: rgba(117, 117, 117, 0.874) ;
+    transition: .3s;
+}
+
+.filter:hover{
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.004) ;
+}
+
+a{ border-image-width: 0 !important;}
+
+.resume{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.resume1{
+    padding: 15px;
+    width: 383.82px;
+    height: 250%;
+    background: rgb(42, 42, 42) ;
+}
+
+
+.resume2{
+    padding: 5px;
+    width: 66.3%;
+    height: 100%;
+    
+    
+    
+}
+.resume1 h1{
+
+    color: white;
+}
+
+.resume1 .bold{
+    color: black;
+    font-weight: bold;
+}
+
+ .bold2{
+    color: black !important;
+    font-weight: bold !important;
+    min-width: 100px;
+}
+
+.year{
+    width: 200px;
+}
+
+.facebook{
+    background:rgb(25, 133, 161) ;
+}
+.facebook i, .instagram i{
+    color: rgb(245, 236, 236) !important;
+}
+
+.facebook:hover{
+    background:rgba(54, 84, 144, 0.952) !important ;
+}
+
+.instagram{
+    background:rgb(76, 92, 104) ;
+}
+
+.instagram:hover{
+    background:rgb(187, 53, 0) !important ;
+}
+
+.about-text p{
+
+    font-weight: normal !important;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.2
+    ;
+
+}
