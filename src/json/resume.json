@@ -8,6 +8,7 @@
         "address":"Mexico City"
 
     },
+    "statement":["My name is Jose Pineda Esquer, I’m a software engineer from Los Mochis Sinaloa living in Mexico City. I'm a Sap Business Bydesign consultant and developer.","I have 8 years of experience implementing and managing Sap systems, I worked as support with SAP ECC 6. I been working as a consultant for Sap business by design implementing the whole suit, and I have 2 years of experience developing solutions and add-ons for Business ByDesign.","Im looking forward to learn about web development so I can expand my knowledge in how to integrate web applications with other administrative systems souch as SAP solutions."],
     "about":"Expert in software integrations in administrative processes using SAP soluctions, SAP cloud Studio developer for SAP Business by design and full stack developer",
     "skills":["Sap Business By Design","SAP ECC6 MM" ,"C#","Javascript","MySQL","React","Mongo DB"],
     "languages":["Spanish","English"],
