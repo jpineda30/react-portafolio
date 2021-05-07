@@ -193,7 +193,7 @@
     width: 50px;
     position: absolute;
     top: 0;
-    background: rgba(3, 18, 44, 0.63);
+    background: rgba(2, 13, 32, 0.63);
     height: 100vh;
     border-right-style: solid;
     border-right-width: 1px;
@@ -241,12 +241,13 @@ text-align: center;
 }
 
 .menu1:hover{
-    background-color: rgb(37, 37, 134);
+    background-color: rgba(255, 255, 255, 0.233);
    border-radius: 50%;
 }
 
 .menu1:hover .smooth{
     visibility: visible;
+    z-index: 1;
 }
 
 #menu-img{
