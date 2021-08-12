@@ -1,4 +1,5 @@
 import React from "react";
+import MyData from "../../json/resume.json";
 
 function Home() {
   return (
@@ -35,25 +36,10 @@ function Home() {
             Sap Bydesign consultant / Full stack developer
           </p>
           <div className="about-text">
-            <p className="has-text-white mt-3">
-              My name is Jose Pineda Esquer, I’m a software engineer from Los
-              Mochis Sinaloa living in Mexico City. I'm a Sap Business Bydesign
-              consultant and developer.
-            </p>
-
-            <p className="has-text-white mt-3">
-              I have 8 years of experience implementing and managing Sap
-              systems, I worked as support with SAP ECC 6. I been working as a
-              consultant for Sap business by design implementing the whole suit,
-              and I have 2 years of experience developing solutions and add-ons
-              for Business ByDesign.
-            </p>
-
-            <p className="has-text-white mt-3">
-              Im looking forward to learn about web development so I can expand
-              my knowledge in how to integrate web applications with other
-              administrative systems souch as SAP solutions.
-            </p>
+            {MyData.statement.map((proyect) => {
+              let add = <p className="has-text-white mt-3">{proyect}</p>;
+              return add;
+            })}
           </div>
         </div>
       </div>

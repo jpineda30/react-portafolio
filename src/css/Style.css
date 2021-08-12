@@ -193,11 +193,11 @@
     width: 50px;
     position: absolute;
     top: 0;
-    background: rgba(2, 13, 32, 0.63);
+    background: rgba(0, 0, 0, 0.945);
     height: 100vh;
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: rgba(18, 17, 98, 0.363);
+    border-right-color: rgba(0, 0, 0, 0.363);
 }
 
 .quarter{

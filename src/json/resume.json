@@ -8,9 +8,9 @@
         "address":"Mexico City"
 
     },
-    "statement":["My name is Jose Pineda Esquer, I’m a software engineer from Los Mochis Sinaloa living in Mexico City. I'm a Sap Business Bydesign consultant and developer.","I have 8 years of experience implementing and managing Sap systems, I worked as support with SAP ECC 6. I been working as a consultant for Sap business by design implementing the whole suit, and I have 2 years of experience developing solutions and add-ons for Business ByDesign.","Im looking forward to learn about web development so I can expand my knowledge in how to integrate web applications with other administrative systems souch as SAP solutions."],
-    "about":"Expert in software integrations in administrative processes using SAP soluctions, SAP cloud Studio developer for SAP Business by design and full stack developer",
-    "skills":["Sap Business By Design","SAP ECC6 MM" ,"C#","Javascript","MySQL","React","Mongo DB"],
+    "statement":["Software engineer, Sap Business Bydesign consultant, cloud studio developer and full-Stack developer.","With 8 years of experience implementing and managing Sap systems, integrating prodcution, logistics and sales processes to sap ECC in the sugar cane production industry till 2015. Consultant for Sap business by design since 2016, implementing the whole suit from accounting to sales. With 2 years of experience developing solutions and add-ons for Business ByDesign.","Currently developing web applications with MERN for the retail industry."],
+    "about":"Expert in software integrations of administrative processes using SAP solutions, SAP cloud Studio developer for SAP Business by design and full stack developer",
+    "skills":["Node.js","Javascript","MySQL","React","Mongo DB","Express","Sap Business By Design","SAP ECC6 MM" ,"SAP ECC6 PP" ,"SAP ECC6 SD" ,"C#","Sap Cloud Studio"],
     "languages":["Spanish","English"],
     "work":[
      {
@@ -18,28 +18,28 @@
          "from":"2011",
          "to":"2015",
          "positionDescription":"Technical Support for SAP ECC 6",
-         "jobDescription":"Administration, Training and technical support for SAP ECC MM SD PP PM"
+         "jobDescription":"Implemented SAP ECC 6. From production and logistics to sales processes and gave continous support an improvement to all business procecess usig SAP ECC 6"
      },
      {
         "company":"Insumos Comerciales de Occidente",
         "from":"2015",
         "to":"2018",
         "positionDescription":"ERP implmenetation and administration",
-        "jobDescription":"Administration, Training and technical support for SAP ECC and SAP Business by Design"
+        "jobDescription":"Implemented SAP Business by Design as proyect manager switching form SAP ECC6"
     },
     {
         "company":"Dintec Consulting",
         "from":"2018",
         "to":"2019",
         "positionDescription":"Sap Bussiness by Design Consultant",
-        "jobDescription":"Consultant for sap Bussiness by Design in the logistics modules"
+        "jobDescription":"Consultant for sap Bussiness by Design in the logistics modules in the retail industry"
     },
     {
         "company":"Insumos Comerciales de Occidente",
         "from":"2018",
         "to":"Current",
         "positionDescription":"Assoociate Manager",
-        "jobDescription":"Administration and implementation of administrative systems and integration of new software solutions"
+        "jobDescription":"Administration and implementation of administrative systems and integration of new software solutions "
     }
     ],
     "education":[
